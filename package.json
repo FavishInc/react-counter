@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saebekassebil/react-counter.git"
+    "url": "https://github.com/FavishInc/react-counter.git"
   },
   "keywords": [
     "counter",
@@ -16,12 +16,13 @@
   "author": "Jakob Miland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saebekassebil/react-counter/issues"
+    "url": "https://github.com/FavishInc/react-counter/issues"
   },
-  "homepage": "https://github.com/saebekassebil/react-counter",
+  "homepage": "https://github.com/FavishInc/react-counter",
   "dependencies": {
     "ease-component": "^1.0.0",
     "raf": "^2.0.4",
-    "react": "^0.12.2"
+    "react": "~0.14.0",
+    "react-dom": "~0.14.0"
   }
 }
