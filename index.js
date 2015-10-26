@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 var raf = require('raf');
 var ease = require('ease-component');
 
@@ -39,7 +40,7 @@ var Counter = React.createClass({
   },
 
   render: function() {
-    return React.DOM.span({ className: 'counter' }, Math.round(this.state.value));
+    return ReactDOM.span({ className: 'counter' }, Math.round(this.state.value));
   }
 });
 
